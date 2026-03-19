@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio - Huỳnh Kim Oanh</title>
+
+<style>
+
+/* MƯỢT */
+html{scroll-behavior:smooth;}
+
+/* NỀN */
+body{
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg,#4fa3e3,#ffffff);
+}
+
+/* MENU */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:white;
+  padding:18px;
+  text-align:center;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  z-index:1000;
+}
+
+nav a{
+  margin:0 20px;
+  font-size:22px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#333;
+}
+
+nav a:hover{color:#4fa3e3;}
+
+/* BANNER */
+.banner{
+  height:500px;
+  background:url("https://images.unsplash.com/photo-1504198453319-5ce911bafcde") no-repeat center;
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.banner h1{font-size:50px;}
+.banner p{font-size:26px;}
+
+/* SECTION */
+section{
+  width:85%;
+  margin:90px auto;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+  animation:fade 0.3s;
+}
+
+@keyframes fade{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+/* TEXT */
+h2{font-size:34px; color:#4fa3e3;}
+p{font-size:21px; line-height:1.8;}
+
+/* ẢNH */
+img{
+  width:100%;
+  max-height:280px;
+  object-fit:cover;
+  border-radius:15px;
+  margin:20px 0;
+}
+
+/* SKILL */
+.skill{
+  margin:15px 0;
+}
+.bar{
+  background:#ddd;
+  height:12px;
+  border-radius:10px;
+}
+.progress{
+  height:12px;
+  border-radius:10px;
+  background:#4fa3e3;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<nav>
+<a href="#about">Giới thiệu</a>
+<a href="#resume">Năng lực</a>
+<a href="#works">Dự án</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+
+<!-- BANNER -->
+<div class="banner">
+<div>
+<h1>Huỳnh Kim Oanh</h1>
+<p>Lớp 12C1 - THPT Nguyễn Du - Bắc Ninh Hòa</p>
+<p>Ước mơ: Tiếp viên hàng không ✈️</p>
+</div>
+</div>
+
+<!-- GIỚI THIỆU -->
+<section id="about">
+<h2>I. Giới thiệu bản thân</h2>
+
+<img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df">
+
+<p>Xin chào! Tôi là Huỳnh Kim Oanh</p>
+
+<p>Tôi hiện là học sinh lớp 12C1 tại trường THPT Nguyễn Du - Bắc Ninh Hòa. Với một tâm hồn yêu thích sự dịch chuyển và khát khao được kết nối mọi người, mục tiêu lớn nhất của tôi là chinh phục bầu trời trong vai trò một Tiếp viên hàng không.</p>
+
+<p>Tôi tin rằng sự chỉn chu, lòng tận tâm và tinh thần trách nhiệm là chìa khóa để mang lại những hành trình an toàn và hạnh phúc cho hành khách. Mỗi ngày, tôi đều nỗ lực học tập và rèn luyện để biến ước mơ khoác trên mình bộ đồng phục hàng không thành hiện thực.</p>
+
+<h3>Kỹ năng cốt lõi</h3>
+
+<div class="skill">
+<p>Tiếng Anh giao tiếp: 90%</p>
+<div class="bar"><div class="progress" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<p>Kiến thức Địa lý & Văn hóa: 85%</p>
+<div class="bar"><div class="progress" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<p>Kỹ năng giải quyết tình huống: 80%</p>
+<div class="bar"><div class="progress" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<p>Kỹ năng thích nghi & Sức bền: 85%</p>
+<div class="bar"><div class="progress" style="width:85%"></div></div>
+</div>
+
+</section>
+
+<!-- NĂNG LỰC -->
+<section id="resume">
+<h2>II. Tóm tắt năng lực</h2>
+
+<img src="https://images.unsplash.com/photo-1502920917128-1aa500764b06">
+
+<p><b>Học vấn & Thành tích</b></p>
+
+<p>• 2024 - Hiện tại: Học sinh lớp 12C1</p>
+<p>• Trường THPT Nguyễn Du - Bắc Ninh Hòa</p>
+<p>• Tổ hợp môn: Toán - Địa lý - Tiếng Anh</p>
+
+<p><b>Tại sao tổ hợp này quan trọng?</b></p>
+
+<p>• Tiếng Anh: Ngôn ngữ toàn cầu phục vụ hành khách quốc tế</p>
+<p>• Địa lý: Hiểu bản đồ bay và văn hóa</p>
+<p>• Toán: Đảm bảo chính xác thời gian và lịch trình</p>
+
+<p><b>Mục tiêu nghề nghiệp</b></p>
+
+<p>• Ngắn hạn: Đạt chứng chỉ tiếng Anh cao</p>
+<p>• Dài hạn: Trở thành tiếp viên hàng không chuyên nghiệp</p>
+
+</section>
+
+<!-- DỰ ÁN -->
+<section id="works">
+<h2>III. Các dự án đã thực hiện</h2>
+
+<img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df">
+
+<p><b>Dự án 1: Hành trình khám phá các châu lục</b></p>
+<p>• Môn: Địa lý | Tiếng Anh</p>
+<p>• Nội dung: Xây dựng bản đồ sân bay và khí hậu</p>
+<p>• Kết quả: Ghi nhớ múi giờ và văn hóa quốc tế</p>
+
+<p><b>Dự án 2: Giao tiếp văn minh trong dịch vụ</b></p>
+<p>• Nội dung: Tài liệu giao tiếp tiếng Anh</p>
+<p>• Kết quả: Rèn luyện phản xạ và thái độ chuyên nghiệp</p>
+
+</section>
+
+<!-- LIÊN HỆ -->
+<section id="contact">
+<h2>IV. Liên hệ</h2>
+
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+
+<p>Email: Huynhkimoanh762009@gmail.com</p>
+<p>SĐT: Chưa cập nhật</p>
+<p>Địa chỉ: Lạc Ninh, Bắc Ninh Hòa, Khánh Hòa</p>
+<p>Trường: THPT Nguyễn Du - Bắc Ninh Hòa</p>
+
+<p>Tôi luôn sẵn sàng học hỏi và phát triển bản thân mỗi ngày.</p>
+
+</section>
+
+</body>
+</html>
